@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Original company datasets
+data/raw/
+data/processed/
+
+# Sensitive local files
+.env
+secrets.toml
+
+# Temporary files
+.DS_Store

@@ -1,0 +1,15 @@
+CUSTOMER CHURN PREDICTION - RUN SUMMARY
+
+Dataset: Customer Churn.csv
+Rows after duplicate removal and target validation: 7043
+Columns including target: 20
+Target column: Churn
+Observed churn/exit rate: 26.54%
+
+Best model by F1-score: Logistic Regression
+              Model  Accuracy  Precision   Recall  F1_Score  ROC_AUC
+Logistic Regression  0.738112   0.504303 0.783422  0.613613 0.841298
+      Random Forest  0.767211   0.554245 0.628342  0.588972 0.822399
+
+Important: metrics are based on a held-out test split. They are not a guarantee of future performance.
+This project identifies statistical patterns; it does not prove that any one factor causes churn.
